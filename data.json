@@ -1,0 +1,107 @@
+[
+  {
+    "university": "Đại học Bách khoa (DUT)",
+    "universityCode": "DDK",
+    "major": "Vi điện tử và Thiết kế vi mạch",
+    "majorCode": "7520211",
+    "score": 27.0
+  },
+  {
+    "university": "Đại học Bách khoa (DUT)",
+    "universityCode": "DDK",
+    "major": "Công nghệ thông tin (Đặc thù)",
+    "majorCode": "7480201",
+    "score": 26.5
+  },
+  {
+    "university": "Đại học Bách khoa (DUT)",
+    "universityCode": "DDK",
+    "major": "Kỹ thuật máy tính",
+    "majorCode": "7480106",
+    "score": 26.5
+  },
+  {
+    "university": "Đại học Bách khoa (DUT)",
+    "universityCode": "DDK",
+    "major": "Kỹ thuật phần mềm",
+    "majorCode": "7480103",
+    "score": 26.0
+  },
+  {
+    "university": "Đại học Bách khoa (DUT)",
+    "universityCode": "DDK",
+    "major": "Kỹ thuật điều khiển & Tự động hóa",
+    "majorCode": "7520216",
+    "score": 25.5
+  },
+  {
+    "university": "Đại học Bách khoa (DUT)",
+    "universityCode": "DDK",
+    "major": "Kỹ thuật Cơ điện tử",
+    "majorCode": "7520114",
+    "score": 24.5
+  },
+  {
+    "university": "Đại học Sư phạm Kỹ thuật (UTE)",
+    "universityCode": "DSK",
+    "major": "Công nghệ thông tin",
+    "majorCode": "7480201",
+    "score": 22.58
+  },
+  {
+    "university": "Đại học Sư phạm Kỹ thuật (UTE)",
+    "universityCode": "DSK",
+    "major": "Công nghệ kỹ thuật ô tô",
+    "majorCode": "7510205",
+    "score": 22.0
+  },
+  {
+    "university": "Đại học Sư phạm Kỹ thuật (UTE)",
+    "universityCode": "DSK",
+    "major": "Công nghệ kỹ thuật điều khiển và tự động hoá",
+    "majorCode": "7510303",
+    "score": 21.5
+  },
+  {
+    "university": "Đại học Sư phạm Kỹ thuật (UTE)",
+    "universityCode": "DSK",
+    "major": "Công nghệ kỹ thuật máy tính",
+    "majorCode": "7480108",
+    "score": 21.0
+  },
+  {
+    "university": "Đại học CNTT & TT Việt - Hàn (VKU)",
+    "universityCode": "VKU",
+    "major": "CN kỹ thuật máy tính - Thiết kế vi mạch bán dẫn",
+    "majorCode": "7480108_VM",
+    "score": 24.0
+  },
+  {
+    "university": "Đại học CNTT & TT Việt - Hàn (VKU)",
+    "universityCode": "VKU",
+    "major": "Quản trị kinh doanh - Quản trị Logistics và chuỗi cung ứng số",
+    "majorCode": "7340101_LG",
+    "score": 23.5
+  },
+  {
+    "university": "Đại học CNTT & TT Việt - Hàn (VKU)",
+    "universityCode": "VKU",
+    "major": "Trí tuệ nhân tạo (kỹ sư)",
+    "majorCode": "7480107",
+    "score": 21.0
+  },
+  {
+    "university": "Đại học CNTT & TT Việt - Hàn (VKU)",
+    "universityCode": "VKU",
+    "major": "Công nghệ thông tin (kỹ sư)",
+    "majorCode": "7480201",
+    "score": 20.0
+  },
+  {
+    "university": "Đại học CNTT & TT Việt - Hàn (VKU)",
+    "universityCode": "VKU",
+    "major": "An toàn thông tin (kỹ sư)",
+    "majorCode": "7480202",
+    "score": 19.0
+  }
+]

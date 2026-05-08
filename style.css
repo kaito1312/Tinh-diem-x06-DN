@@ -85,15 +85,15 @@ body {
 
 .header {
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .header h1 {
     font-size: 3rem;
     font-weight: 800;
     background: linear-gradient(to right, #60a5fa, #c084fc);
-    -webkit-background-clip: text;
     background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 0.5rem;
 }
@@ -114,6 +114,38 @@ body {
     border: 1px solid var(--border-color);
 }
 
+/* Method Tabs */
+.method-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.tab-btn {
+    background: rgba(15, 23, 42, 0.6);
+    border: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.tab-btn:hover {
+    background: rgba(59, 130, 246, 0.1);
+    color: white;
+}
+
+.tab-btn.active {
+    background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+    color: white;
+    border-color: transparent;
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+}
+
 /* Glassmorphism Forms */
 .calculator-glass {
     background: var(--card-bg);
@@ -131,16 +163,24 @@ body {
     transform: translateY(-5px);
 }
 
+.section-title {
+    font-size: 1.1rem;
+    color: var(--accent-blue);
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 .input-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .priority-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1.5rem;
     margin-bottom: 2rem;
 }
@@ -149,6 +189,19 @@ body {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.input-group.hidden {
+    display: none;
+}
+
+#hocbaSection {
+    transition: all 0.3s ease;
+}
+
+#hocbaSection.hidden {
+    display: none;
 }
 
 .input-group label {
@@ -200,6 +253,62 @@ body {
     transform: translateY(1px);
 }
 
+/* Hoc Ba Grid */
+.hocba-container {
+    width: 100%;
+    overflow-x: auto;
+    margin-bottom: 2rem;
+}
+
+.hocba-grid {
+    display: grid;
+    grid-template-columns: 80px 1fr 1fr 1fr 80px;
+    gap: 0.75rem;
+    align-items: center;
+    background: rgba(15, 23, 42, 0.4);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: 1px solid var(--border-color);
+    min-width: 600px;
+}
+
+.hb-header {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--accent-blue);
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.hb-label {
+    font-weight: 600;
+    color: #e2e8f0;
+}
+
+.hb-input {
+    background: rgba(15, 23, 42, 0.6);
+    border: 1px solid var(--border-color);
+    color: white;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    font-size: 0.95rem;
+    width: 100%;
+    text-align: center;
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+.hb-input:focus {
+    border-color: var(--accent-blue);
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.25);
+}
+
+.hb-avg {
+    font-weight: 800;
+    color: var(--success);
+    text-align: center;
+}
+
 /* Results Section */
 .results-container {
     opacity: 1;
@@ -247,6 +356,20 @@ body {
 .score-details {
     color: var(--text-secondary);
     font-size: 0.95rem;
+}
+
+.calculation-breakdown {
+    margin-top: 0.75rem;
+    font-size: 0.9rem;
+    color: #e2e8f0;
+    background: rgba(0, 0, 0, 0.25);
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.5rem;
+    border: 1px dashed rgba(255,255,255,0.2);
+}
+
+.calculation-breakdown.hidden {
+    display: none;
 }
 
 /* Categories */
@@ -360,4 +483,21 @@ body {
     .categories {
         grid-template-columns: 1fr;
     }
+    .method-tabs {
+        flex-direction: column;
+    }
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 2rem;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.footer span {
+    color: var(--accent-purple);
+    font-weight: 800;
+    letter-spacing: 0.5px;
 }
